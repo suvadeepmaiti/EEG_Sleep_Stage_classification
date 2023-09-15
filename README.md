@@ -42,8 +42,37 @@ This repository contains code, results, and dataset links for our arxiv paper ti
 | SHHS| 76.75 | 0.83 | 81.9 |
 
 
-  
-   
-  
+<!--t-SNE visualization using our method shows clear clusters and captures the sleep-staging progression observed clinically.-->
 
+<!--<img src="/images/tsne.jpg" width="750">-->
 
+>1D-GradCAM visualization of raw EEG epochs along with sleep micro-structures shown in green boxes.
+<img src="/images/gradcam.jpg" width="750">
+
+## Getting started 🥷
+#### Setting up the environment
+TODO
+#### What each file does
+TODO
+#### Training the model
+TODO
+#### Testing the model
+TODO
+#### Logs and checkpoints
+- The logs are saved in `logs/` directory.
+- The model checkpoints are saved in `checkpoints/` directory.
+
+## Getting the weights :weight_lifting:
+TODO
+
+## License and Citation 📰
+Please cite the following paper if you have used this code:
+```
+@misc{sharma2023deep,
+      title={A Deep Dive into Sleep: Single-Channel EEG-Based Sleep Stage Classification with Model Interpretability}, 
+      author={Shivam Sharma and Suvadeep Maiti and S. Mythirayee and Srijithesh Rajendran and Bapi Raju},
+      year={2023},
+      eprint={2309.07156},
+      archivePrefix={arXiv},
+      primaryClass={eess.SP}
+}
