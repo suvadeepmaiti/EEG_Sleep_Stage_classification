@@ -3,8 +3,8 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/suvadeepmaiti/EEG_Sleep_Stage_classification)
 ![GitHub issues](https://img.shields.io/github/issues/suvadeepmaiti/EEG_Sleep_Stage_classification)
 
-# A Deep Dive into Sleep: Single-Channel EEG-Based Sleep Stage Classification with Model Interpretability
-This repository contains code, results, and dataset links for our arxiv paper titled ***A Deep Dive into Sleep: Single-Channel EEG-Based Sleep Stage Classification with Model Interpretability***. 📝
+# Transparency in Sleep Staging: Deep Learning Method for EEG Sleep Stage Classification with Model Interpretability
+This repository contains code, results, and dataset links for our arxiv paper titled ***Transparency in Sleep Staging: Deep Learning Method for EEG Sleep Stage Classification with Model Interpretability***. 📝
 >**Authors:** <a name="myfootnote1"><sup>1</sup></a>Shivam Kumar Sharma, <a name="myfootnote1"><sup>1</sup></a>Suvadeep Maiti, S.Mythirayee, Srijithesh Rajendran, Bapi Raju
 
 <sup>[1](#myfootnote1)</sup>Equal contribution
@@ -23,7 +23,7 @@ This repository contains code, results, and dataset links for our arxiv paper ti
 
 ## Introduction 🔥
 
->Sleep, a fundamental physiological process, occupies a significant portion of our lives. Accurate classification of sleep stages serves as a crucial tool for evaluating sleep quality and identifying probable sleep disorders. This work introduces a novel methodology that utilises a SE-Resnet-BiLSTM architecture to classify sleep into five separate stages. The classification process is based on the analysis of single-channel electroencephalograms (EEGs). The framework that has been suggested consists of two fundamental elements: a feature extractor that utilizes SE-ResNet, and a temporal context encoder that use stacks of Bi-LSTM units.The effectiveness of our approach is substantiated by thorough assessments conducted on three different datasets, namely SLeepEDF-20, SleepEDF78, and SHHS. Notably, we introduce the utilization of 1D-GradCAM visualization to shed light on the decisionmaking process of our model in the realm of sleep stage classification. This visualization method not only provides valuable insights into the model’s classification rationale but also aligns its outcomes with the annotations made by sleep experts. 
+>Automated Sleep stage classification using raw single channel EEG is a critical tool for sleep quality assessment and disorder diagnosis. However, modelling the complexity and variability inherent in this signal is a challenging task, limiting their practicality and effectiveness in clinical settings. To mitigate these challenges, this study presents an end-to-end deep learning (DL) model which integrates squeeze and excitation blocks within the residual network to extract features and stacked Bi-LSTM to understand complex temporal dependencies. A distinctive aspect of this study is the adaptation of GradCam for sleep staging, marking the first instance of an explainable DL model in this domain with alignment of its decision-making with sleep expert's insights. We evaluated our model on the publically available datasets (SleepEDF-20, SleepEDF-78, and SHHS), achieving Macro-F1 scores of 82.5, 78.9, and 81.9, respectively. Additionally, a novel training efficiency enhancement strategy was implemented by increasing stride size, leading to 8x faster training times with minimal impact on performance. Comparative analyses underscore our model outperforms all existing baselines, indicating its potential for clinical usage.
 
 ## Highlights ✨
 
